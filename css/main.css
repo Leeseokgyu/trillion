@@ -1,0 +1,58 @@
+header {
+    max-width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+}
+header h2 {}
+header h2 a {}
+header h2 a img {width: 114px; height: 35px;}
+header nav {}
+header nav > ul {display: flex;}
+header nav > ul > li {margin-right: 40px; position: relative;}
+header nav > ul > li:last-child {margin: 0;}
+header nav > ul > li > a {font-size: 1rem;}
+header nav > ul > li .sub {width: 90px;}
+header nav > ul > li .sub > li{display: none;}
+header nav > ul > li .sub > li > a {white-space: nowrap;}
+header .right {}
+header .right a {margin-left: 20px;}
+header .right a img {}
+header span {}
+main {}
+main .first {
+    max-width: 1920px;
+    height: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+main .first .po >img {}
+main .first > h2 {
+    font-size: 2.5rem;
+    color: #A7A7A7;
+    position: absolute;
+    line-height: 106%;
+    text-align: center;
+}
+main .first .name {
+    bottom: 160px;
+    font-size: 3.0rem;
+    right: 700px;
+}
+main .first .two {
+    bottom: 100px;
+    right: 790px;}
+main .first .left {
+    position: absolute;
+    top:450px;
+    left: 30px;
+}
+main .first .left img {width: 26.25px; height: 60px;}
+main .first .right {
+    position: absolute;
+    top:450px;
+    left: 1840px;}
+main .first .right img {width: 26.25px; height: 60px;}
